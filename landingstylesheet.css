@@ -11,23 +11,23 @@
     margin-left: 175px;
 }
 
-.navbar {
-    color: white;
-    background-color: white;
-}
-.navbar-light {
-    color: white;
-    background-color: white;
-}
-
-.bg-light {
-    color: white;
-    background-color: white;
-}
-.nav-link {
-    color: grey;
-}
-
 .nav-item  {
     color: grey;
+}
+
+/* format navigation smaller */
+@media (max-width: 480px) {
+  #homepagelat {
+    color: white; 
+    background-color: #5f9ea0;
+    font-weight: bold;
+    padding: 40px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    margin-left: 0px;
+  }
+ 
+  #bg-custum {
+      background-color: cadetblue;
+  }
 }
