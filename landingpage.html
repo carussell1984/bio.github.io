@@ -35,15 +35,47 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Comparison</a>
+          <a class="nav-link" href="comparison.html">Comparison</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Data</a>
+          <a class="nav-link" href="data.html">Data</a>
         </li>
       </ul>
     </div>
   </nav>
-</header>
-
+ </header>
+  <div class="background" id=topbackground></div>
+    <div class="row">
+    <div class="col-1"></div>
+     <div class="col-lg-5">
+      <h2> Summary: Latitude vs. X</h2>
+      <hr/>
+      <div class="projectoverview">
+        <img class="pr-e pb3 float-md-left" src="Temperature_vs_Latitude.png" width="325" height ="275">
+        <p id>The purpose of the project was to analyze how whether changes as you get closer to the equator. To accomplish
+          this analysis, data was requested from the OpenWeatherMap API 06/26/2019 between 5:30 PM PST – 5:52 PM on over 1000 cities.
+        </p>
+        <p>After assembling the data dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we
+          looked at included temperature, cloudiness, wind_speed, and humidity. This site provides the source data and visualizations 
+        created as part of the analysis, as well as the explainations and descriptions of any trends and correlations witnessed.
+        </p>
+      </div>
+    </div>
+    <div class="col-1"></div>
+    <div id="col-4" class="col-lg-4">
+      <h3>Visualizations</h3>
+      <hr/>
+      <div id="imgset1">
+        <img src="Temperature_vs_Latitude.png" width=50% height =50%>
+        <img  class="landimg2" src="Humidity_vs_Latitude.png" width=50% height =50%>
+      </div>
+      <div id="imgset2">
+        <img  src="Cloudcover_vs_Latitude.png" width=50% height =50%>
+        <img  class="landimg2" src="Windspeed_vs_Latitude.png" width=50% height =50% >
+      </div>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="background" id=topbackground></div>
 </body>
 </html>

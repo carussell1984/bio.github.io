@@ -18,65 +18,37 @@
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
   background-color: lightgrey;
 }
-
 /* Navbar styling ends*/
 
+tr {
+    text-align: center;
+}
+
+
+h1 {
+    padding-top: 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: cadetblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
 p {
-  line-height: 2em;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
-#topbackground {
-  padding:30px;
-  background-color: silver;
+.col--md-6 {
+    padding:10%
 }
 
-
-.row {
-  background-color: silver;
+table {
+    background-color: white;
 }
-.col-lg-5 {
-  background-color: white;
-}
-
-.col-lg-4 {
-  background-color: white;
-  color: white;
-}
-
-h2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  color: cadetblue;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  background: white;
-}
-
-h3 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  color: cadetblue;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  background: whites
-}
-
-
-.projectoverview {
-  margin-top: 40px;
-}
-
-.landimg2 {
-  float:right;
-
-}
-
-#imgset1 {
-  margin-top: 8%
-}
-
 /* format navigation smaller */
-@media (max-width: 950px) {
+@media (max-width: 600px) {
   #homepagelat {
     color: white; 
     background-color: #5f9ea0;
@@ -95,11 +67,5 @@ h3 {
   padding: 40px;
   border: white
   }
-
-.col-1 {
-   display:none;
-
-}
-
 
 }
