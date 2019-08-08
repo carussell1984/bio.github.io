@@ -42,6 +42,10 @@ p {
   background-color: white;
   color: white;
 }
+.col-md-4 {
+  background-color: white;
+  color: white;
+}
 
 h2 {
   margin-top: 30px;
@@ -74,6 +78,23 @@ h3 {
 #imgset1 {
   margin-top: 8%
 }
+
+#visimg {
+  height: 75%;
+  width: 75%;
+  align-items: center;
+
+}
+
+
+
+#visual {
+    padding-top: 3%;
+    text-indent: 25px;
+
+}
+
+
 
 /* format navigation smaller */
 @media (max-width: 950px) {
