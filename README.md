@@ -8,4 +8,11 @@ In the github repo there are 7 html files:
   * data.html - shows the data that was pulled from OpenWeatherMap
   * 4 Visualization pages (wind_speed.html, max_temp.html, humidity.html, cloudiness.html) which give the conclusion and overall analysis     on each plot.
   
+
+ Additionally, there are a total of 3 css styling sheets.
+   * landingstylesheet.css - the homepage and the 4 visualization pages all share in this page
+   * datastylesheet.css - the data.html file uses this file
+   * comparisonstylingsheet.css - the comparison.html file uses this file
+ 
+ The resources that were used in the website are also in this file. There are 4 images used on the website from  each plot in the github repo and the clean data set that was used to graph the plots, 
   
