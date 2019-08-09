@@ -14,5 +14,9 @@ In the github repo there are 7 html files:
    * datastylesheet.css - the data.html file uses this file
    * comparisonstylingsheet.css - the comparison.html file uses this file
  
- The resources that were used in the website are also in this file. There are 4 images used on the website from  each plot in the github repo and the clean data set that was used to graph the plots, 
+ The resources that were used in the website are also in this github repo. There are 4 images for each plots in the github repo and the clean data set that was used to graph the plots.
+ 
+ The work displayed in this github repo is from the work done in the WeatherPy github repo:https://github.com/carussell1984/WeatherPy
+ The website displaying this body of work is: https://carussell1984.github.io/latitude_vs_x/.
+ 
   
