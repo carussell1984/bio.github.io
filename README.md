@@ -10,7 +10,7 @@ In the github repo there are 7 html files:
   
 
  Additionally, there are a total of 3 css styling sheets.
-   * landingstylesheet.css - the homepage and the 4 visualization pages all share in this page
+   * landingstylesheet.css - the homepage and the 4 visualization pages all utilize this file
    * datastylesheet.css - the data.html file uses this file
    * comparisonstylingsheet.css - the comparison.html file uses this file
  
